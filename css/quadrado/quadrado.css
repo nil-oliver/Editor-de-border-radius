@@ -1,0 +1,66 @@
+#quadrado {
+    border: 2px solid #73AD21;
+    border-top-left-radius: 0px 0px;
+    width: 600px;
+    height: 450px;  
+    margin: 0 auto;
+    margin-top: 125px;
+    position: relative;
+    background-color: burlywood;
+}
+
+#cima{
+  position: absolute;
+  top: -14px;
+  width: 600px;
+}
+#bottom{
+  position: absolute;
+  top: 444px;
+  left: -2px;
+  width: 600px;
+  transform: rotate(180deg);
+}
+
+#left{
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 214px;
+  left: -237px;
+  width: 462px;
+}
+
+#right{
+  position: absolute;
+  transform: rotate(90deg);
+  top: 214px;
+  left: 374px;
+  width: 455px;
+}
+
+.conteiner{
+  display: flex;
+  justify-content: center;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 1.5em;
+    font-size: 1.125rem;
+    width: 600px;
+    height: 30px;
+}
+#propriedades{
+    font-size: 1.125rem;
+    line-height: 1.5;
+    width: 250px;
+    outline: none;
+    
+}
+button{
+    border-radius: 2px;
+    background: #f09;
+    border: none;
+    color: rgba(255,255,255,0.9);
+    padding: 0.5em 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
